@@ -1,0 +1,15 @@
+# Ignore environment files (DO NOT commit API keys or secrets)
+*.env
+
+# Rust build files
+backend/target/
+backend/Cargo.lock
+
+# Node.js dependencies
+frontend/node_modules/
+frontend/dist/
+
+# Ignore editor & OS-specific files
+.DS_Store
+.vscode/
+.idea/
